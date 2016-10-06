@@ -89,37 +89,88 @@ body{
 }
 
 //mainbanner
-.icon
-{
-      background: rgba(1, 1, 1, 0.12);
-      list-style: none;
-      padding:30px 0px 30px 58px;
-      font-family: $font-family;
-      font-size: 26px;
-      padding-left: 75px;
- //
-  li
+  .icon
   {
-    display: inline-block;
-    width: 32%;
-    margin-right: -26px;
+        background: rgba(1, 1, 1, 0.12);
+        list-style: none;
+        padding:30px 0px 30px 58px;
+        font-family: $font-family;
+        font-size: 26px;
+        padding-left: 75px;
+   //
+    li
+    {
+      display: inline-block;
+      width: 32%;
+      margin-right: -26px;
 
-    .images
-    {
-      float: left;
-      width: 22%;
-      margin-left: 23px;
-    }
-    .text
-    {
-      float: right;
-      width: 70%;
-      margin-left: 5px;
-      color: $themeColor;
-    }
-    img
-    {
-      @include icon;
+      .images
+      {
+        float: left;
+        width: 22%;
+        margin-left: 23px;
+      }
+      .text
+      {
+        float: right;
+        width: 70%;
+        margin-left: 5px;
+        color: $themeColor;
+      }
+      img
+      {
+        @include icon;
+      }
     }
   }
-}
+
+
+// FEATURE PHONE
+
+#feature-phone{
+  padding-left: 133px;
+  padding-right: 207px;
+  margin-top: 27px;
+
+  #feature-phone-image{
+    margin-left: 64px;
+    float: left;
+  }
+
+    #feature-text{
+      float: right;
+
+      #feature-phone-text{
+        font-size: 42px;
+        color: $themeColor;
+        letter-spacing: -1px;
+        margin-top: 9px;
+
+      }
+
+      #feature-phone-subtext{
+        margin-top: 10px;
+        font-size: 28.5px;
+        color: $themeColor;
+      }
+
+      #feature-button {
+        margin-top: 28px;
+
+        button {
+          background-color: #57bc42;
+          border-radius: 8px;
+          height: 53px;
+          width: 235px;
+          border: 0px;
+          color: #fff;
+          font-size: 29px;
+          font-weight: bold;
+        }
+
+        button:hover{
+          @extend buttonHover;
+        }
+      }
+    }
+  }

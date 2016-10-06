@@ -68,7 +68,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 11, ../../sass/screen.scss */
-buttonHover, #site-banner #banner-overlay #banner-content #content-button:hover {
+buttonHover, #site-banner #banner-overlay #banner-content #content-button:hover, #feature-phone #feature-text #feature-button button:hover {
   cursor: pointer;
   background-color: #22a00b;
 }
@@ -161,4 +161,48 @@ body {
   width: 76px;
   height: 76px;
   float: right;
+}
+
+/* line 130, ../../sass/screen.scss */
+#feature-phone {
+  padding-left: 133px;
+  padding-right: 207px;
+  margin-top: 27px;
+}
+/* line 135, ../../sass/screen.scss */
+#feature-phone #feature-phone-image {
+  margin-left: 64px;
+  float: left;
+}
+/* line 140, ../../sass/screen.scss */
+#feature-phone #feature-text {
+  float: right;
+}
+/* line 143, ../../sass/screen.scss */
+#feature-phone #feature-text #feature-phone-text {
+  font-size: 42px;
+  color: #1f3f66;
+  letter-spacing: -1px;
+  margin-top: 9px;
+}
+/* line 151, ../../sass/screen.scss */
+#feature-phone #feature-text #feature-phone-subtext {
+  margin-top: 10px;
+  font-size: 28.5px;
+  color: #1f3f66;
+}
+/* line 157, ../../sass/screen.scss */
+#feature-phone #feature-text #feature-button {
+  margin-top: 28px;
+}
+/* line 160, ../../sass/screen.scss */
+#feature-phone #feature-text #feature-button button {
+  background-color: #57bc42;
+  border-radius: 8px;
+  height: 53px;
+  width: 235px;
+  border: 0px;
+  color: #fff;
+  font-size: 29px;
+  font-weight: bold;
 }

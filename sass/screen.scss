@@ -3,8 +3,77 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
-//@import "compass/reset";
+@import "compass/reset";
+$themeColor:#1f3f66;
+$main-font:Calibri Light;
+/*Start of navigation bar*/
+#nav{
+  $defaultWindowSize:100%;
+  width:$defaultWindowSize;
+  ul {
 
-header{
-  background: rgb(31, 63, 102);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: $themeColor;
+  }
+  li {
+    list-style-type: none;
+    float: left;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 35px;
+    text-decoration: none;
+    font-size: 200%;
+    font-family: $main-font;
+  }
+
+  li a:hover {
+    background-color: #1c3054;
+  }
+  /*logo design*/
+
+  .logo {
+    padding: 30px 70px 20px 110px ;
+    width:200px;
+    height: 50px;
+  }
+  .search-icon{
+  // margin-left: 100px;
+    width:25px;
+    height: 25px;
+    float:left;
+     margin-top: 8px;
+    padding-left:10px;
+  }
+  .search-input{
+    border:solid 3px white!important;
+    width: 271px;
+    float:left;
+    margin: 30px 30px 0px 100px;
+    height: 40px;
+  }
+
+
+/*input search*/
+  input[type=search] {
+    color: #ffffff;
+    text-align: left;
+    cursor: pointer;
+    display: block;
+    width: 86.5%;
+    height: 42px;
+    letter-spacing: 1px;
+   // text-shadow: 0 0 2px #ffffff;
+    word-spacing: 5px;
+    //background-image: url(assets/images/search-icon.png);
+    background-color:  rgba(31,63,102,.20);
+    padding:9px;
+    font-size: 18px;
+    border:none;
+  }
 }
+/*end of navigation bar*/

@@ -25,10 +25,11 @@ $main-font:Calibri Light;
     display: block;
     color: white;
     text-align: center;
-    padding: 35px;
+    padding: 42px 30px 42px 30px;
     text-decoration: none;
     font-size: 200%;
     font-family: $main-font;
+    letter-spacing: 1px;
   }
 
   li a:hover {
@@ -37,9 +38,9 @@ $main-font:Calibri Light;
   /*logo design*/
 
   .logo {
-    padding: 30px 70px 20px 110px ;
-    width:200px;
-    height: 50px;
+    padding: 30px 70px 18px 110px ;
+    width:180px;
+    height: 60px;
   }
   .search-icon{
   // margin-left: 100px;
@@ -48,13 +49,14 @@ $main-font:Calibri Light;
     float:left;
      margin-top: 8px;
     padding-left:10px;
+    padding-right:5px;
   }
   .search-input{
     border:solid 3px white!important;
-    width: 271px;
+    width: 300px;
     float:left;
-    margin: 30px 30px 0px 100px;
-    height: 40px;
+    margin: 35px 30px 0px 120px;
+    height: 42px;
   }
 
 
@@ -64,16 +66,21 @@ $main-font:Calibri Light;
     text-align: left;
     cursor: pointer;
     display: block;
-    width: 86.5%;
-    height: 42px;
+    width: 86.1%;
+    height: 42.5px;
     letter-spacing: 1px;
    // text-shadow: 0 0 2px #ffffff;
-    word-spacing: 5px;
+    word-spacing: 4px;
     //background-image: url(assets/images/search-icon.png);
     background-color:  rgba(31,63,102,.20);
     padding:9px;
-    font-size: 18px;
+    font-size: 20px;
     border:none;
+    outline: none;
+
+  }
+  .section{
+    position: relative;
   }
 }
 /*end of navigation bar*/

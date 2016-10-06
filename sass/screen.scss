@@ -136,6 +136,7 @@ body{
         font-size:40px;
         line-height: 40px ;
         font-family: "Calibri Light";
+        letter-spacing: .5px;
       }
 
       // banner  button
@@ -194,9 +195,11 @@ body{
       width: 70%;
       margin-left: 5px;
       color: #1f3f66;
-      font-family: $font-family;
-      font-size: 24px;
+      font-size: 22px;
       line-height: 24px;
+      letter-spacing: 1px;
+      font-family: Arial;
+
     }
     img
     {
@@ -232,6 +235,7 @@ body{
       margin-top: 10px;
       font-size: 28.5px;
       color: $themeColor;
+      font-family: "Calibri Light";
     }
 
     #feature-button {

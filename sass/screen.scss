@@ -94,8 +94,6 @@ body{
       background: rgba(1, 1, 1, 0.12);
       list-style: none;
       padding:30px 0px 30px 58px;
-      font-family: $font-family;
-      font-size: 26px;
       padding-left: 75px;
  //
   li
@@ -115,7 +113,10 @@ body{
       float: right;
       width: 70%;
       margin-left: 5px;
-      color: $themeColor;
+      color: #1f3f66;
+      font-family: $font-family;
+      font-size: 24px;
+      line-height: 24px;
     }
     img
     {

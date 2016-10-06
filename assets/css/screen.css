@@ -231,50 +231,54 @@ body {
   width: 70%;
   margin-left: 5px;
   color: #1f3f66;
-  font-family: "calibri";
-  font-size: 24px;
+  font-family: Arial;
+  letter-spacing: 1px;
+  font-size: 22px;
   line-height: 24px;
 }
-/* line 201, ../../sass/screen.scss */
+/* line 202, ../../sass/screen.scss */
 .icon li img {
   width: 76px;
   height: 76px;
   float: right;
 }
 
-/* line 210, ../../sass/screen.scss */
+/* line 211, ../../sass/screen.scss */
 #feature-phone {
   padding-left: 133px;
   padding-right: 207px;
   margin-top: 27px;
 }
-/* line 215, ../../sass/screen.scss */
+/* line 216, ../../sass/screen.scss */
 #feature-phone #feature-phone-image {
   padding-left: 64px;
   float: left;
 }
-/* line 220, ../../sass/screen.scss */
+/* line 221, ../../sass/screen.scss */
 #feature-phone #feature-text {
   float: right;
 }
-/* line 223, ../../sass/screen.scss */
+/* line 224, ../../sass/screen.scss */
 #feature-phone #feature-text #feature-phone-text {
   font-size: 42px;
   color: #1f3f66;
   letter-spacing: -1px;
   margin-top: 9px;
 }
-/* line 231, ../../sass/screen.scss */
+/* line 232, ../../sass/screen.scss */
 #feature-phone #feature-text #feature-phone-subtext {
   margin-top: 10px;
-  font-size: 28.5px;
-  color: #1f3f66;
+  font-size: 24.5px;
+  color: #1f4e75;
+  font-family: Arial;
+  letter-spacing: .8px;
+  line-height: 29px;
 }
-/* line 237, ../../sass/screen.scss */
+/* line 241, ../../sass/screen.scss */
 #feature-phone #feature-text #feature-button {
   margin-top: 28px;
 }
-/* line 240, ../../sass/screen.scss */
+/* line 244, ../../sass/screen.scss */
 #feature-phone #feature-text #feature-button button {
   background-color: #57bc42;
   border-radius: 8px;

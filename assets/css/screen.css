@@ -289,3 +289,7 @@ body {
   font-size: 29px;
   font-weight: bold;
 }
+/* line 261, ../../sass/screen.scss */
+#feature-phone #mustClear {
+  clear: both;
+}

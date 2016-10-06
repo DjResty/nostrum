@@ -67,24 +67,23 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 10, ../sass/screen.scss */
+/* line 11, ../sass/screen.scss */
 buttonHover, #site-banner #banner-overlay #banner-content #content-button:hover {
   cursor: pointer;
   background-color: #22a00b;
 }
 
-/* line 16, ../sass/screen.scss */
+/* line 17, ../sass/screen.scss */
 body {
   font-family: Calibri;
 }
 
-/* line 20, ../sass/screen.scss */
+/* line 21, ../sass/screen.scss */
 #site-banner {
   background: url("../images/skyline-buildings-new-york-skyscrapers.jpg");
   position: relative;
   background-repeat: no-repeat;
   color: #1f3f66;
-  line-height: 43px;
   width: 100vw;
   background-size: cover;
   overflow: hidden;
@@ -102,26 +101,63 @@ body {
   background-size: contain;
   background-position: 552px 5px;
   background-repeat: no-repeat;
-  margin-bottom: 102px;
+  margin-bottom: 72px;
 }
 /* line 48, ../sass/screen.scss */
 #site-banner #banner-overlay #banner-content #banner-text {
   font-size: 51px;
+  line-height: 60px;
 }
-/* line 52, ../sass/screen.scss */
+/* line 53, ../sass/screen.scss */
 #site-banner #banner-overlay #banner-content #banner-subtext {
   font-size: 46px;
   font-family: "Calibri Light";
+  line-height: 43px;
 }
-/* line 58, ../sass/screen.scss */
+/* line 60, ../sass/screen.scss */
 #site-banner #banner-overlay #banner-content #content-button {
   margin-top: 20px;
   background-color: #57bc42;
   border-radius: 6px;
-  height: 60px;
+  height: 55px;
   width: 260px;
   border: 0px;
   color: #fff;
   font-size: 30px;
   font-weight: bold;
+}
+
+/* line 89, ../sass/screen.scss */
+.icon {
+  background: rgba(1, 1, 1, 0.12);
+  list-style: none;
+  padding: 30px 0px 30px 58px;
+  font-family: "calibri";
+  font-size: 26px;
+  padding-left: 75px;
+}
+/* line 98, ../sass/screen.scss */
+.icon li {
+  display: inline-block;
+  width: 32%;
+  margin-right: -26px;
+}
+/* line 104, ../sass/screen.scss */
+.icon li .images {
+  float: left;
+  width: 22%;
+  margin-left: 23px;
+}
+/* line 110, ../sass/screen.scss */
+.icon li .text {
+  float: right;
+  width: 70%;
+  margin-left: 5px;
+  color: #1f3f66;
+}
+/* line 117, ../sass/screen.scss */
+.icon li img {
+  width: 76px;
+  height: 76px;
+  float: right;
 }

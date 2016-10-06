@@ -18,6 +18,7 @@ body{
   font-family: Calibri  ;
 }
 
+// SITE BANNER
 #site-banner{
   background: url("../images/skyline-buildings-new-york-skyscrapers.jpg");
   position: relative;
@@ -28,55 +29,57 @@ body{
   overflow: hidden;
 
 
-    // color-overlay
-    #banner-overlay{
-      padding-left: 17%;
-      padding-top: 5%;
-      height: 100%;
-      background-color: rgba(213 , 232, 255 , .15);
+  // color-overlay
+  #banner-overlay{
+    padding-left: 16.9%;
+    padding-top: 4%;
+    height: 100%;
+    background-color: rgba(213 , 232, 255 , .15);
 
 
     // banner contents
-      #banner-content{
-        background: url("../images/device_black.png");
-        background-size: contain;
-        background-position: 552px 5px;
-        background-repeat: no-repeat;
-        margin-bottom: 72px;
+    #banner-content{
+      background: url("../images/device_black.png");
+      background-size: contain;
+      background-position: 558px 5px;
+      background-repeat: no-repeat;
+      margin-bottom: 102px;
 
-        // banner text
-          #banner-text{
-            font-size:51px;
-            line-height: 60px;
-          }
-
-          #banner-subtext{
-            font-size:46px;
-            font-family: "Calibri Light";
-            line-height: 43px;
-          }
-
-        // banner  button
-        #content-button{
-          margin-top: 20px;
-          background-color: #57bc42;
-          border-radius: 6px;
-          height: 55px;
-          width: 260px;
-          border: 0px;
-          color: #fff;
-          font-size: 30px;
-          font-weight: bold;
-        }
-
-         #content-button:hover{
-           @extend buttonHover;
-         }
+      // banner text
+      #banner-text{
+        font-size:51px;
+        line-height: 64px;
+        margin-bottom: 2px;
       }
-  }
 
+      #banner-subtext{
+        font-size:46px;
+        line-height: 48px;
+        font-family: "Calibri Light";
+      }
+
+      // banner  button
+      #content-button{
+        margin-top: 35px;
+        background-color: #57bc42;
+        border-radius: 6px;
+        height: 60px;
+        width: 260px;
+        border: 0px;
+        color: #fff;
+        font-size: 30px;
+        font-weight: bold;
+      }
+
+      #content-button:hover{
+        @extend buttonHover;
+      }
+    }
+  }
 }
-//icon property
+
+
+// ICON BAR
 
 @mixin icon
 {

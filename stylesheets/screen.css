@@ -78,7 +78,7 @@ body {
   font-family: Calibri;
 }
 
-/* line 21, ../sass/screen.scss */
+/* line 22, ../sass/screen.scss */
 #site-banner {
   background: url("../images/skyline-buildings-new-york-skyscrapers.jpg");
   position: relative;
@@ -88,38 +88,39 @@ body {
   background-size: cover;
   overflow: hidden;
 }
-/* line 32, ../sass/screen.scss */
+/* line 33, ../sass/screen.scss */
 #site-banner #banner-overlay {
-  padding-left: 17%;
-  padding-top: 5%;
+  padding-left: 16.9%;
+  padding-top: 4%;
   height: 100%;
   background-color: rgba(213, 232, 255, 0.15);
 }
-/* line 40, ../sass/screen.scss */
+/* line 41, ../sass/screen.scss */
 #site-banner #banner-overlay #banner-content {
   background: url("../images/device_black.png");
   background-size: contain;
-  background-position: 552px 5px;
+  background-position: 558px 5px;
   background-repeat: no-repeat;
-  margin-bottom: 72px;
+  margin-bottom: 102px;
 }
-/* line 48, ../sass/screen.scss */
+/* line 49, ../sass/screen.scss */
 #site-banner #banner-overlay #banner-content #banner-text {
   font-size: 51px;
-  line-height: 60px;
+  line-height: 64px;
+  margin-bottom: 2px;
 }
-/* line 53, ../sass/screen.scss */
+/* line 55, ../sass/screen.scss */
 #site-banner #banner-overlay #banner-content #banner-subtext {
   font-size: 46px;
+  line-height: 48px;
   font-family: "Calibri Light";
-  line-height: 43px;
 }
-/* line 60, ../sass/screen.scss */
+/* line 62, ../sass/screen.scss */
 #site-banner #banner-overlay #banner-content #content-button {
-  margin-top: 20px;
+  margin-top: 35px;
   background-color: #57bc42;
   border-radius: 6px;
-  height: 55px;
+  height: 60px;
   width: 260px;
   border: 0px;
   color: #fff;
@@ -127,7 +128,7 @@ body {
   font-weight: bold;
 }
 
-/* line 89, ../sass/screen.scss */
+/* line 92, ../sass/screen.scss */
 .icon {
   background: rgba(1, 1, 1, 0.12);
   list-style: none;
@@ -136,26 +137,26 @@ body {
   font-size: 26px;
   padding-left: 75px;
 }
-/* line 98, ../sass/screen.scss */
+/* line 101, ../sass/screen.scss */
 .icon li {
   display: inline-block;
   width: 32%;
   margin-right: -26px;
 }
-/* line 104, ../sass/screen.scss */
+/* line 107, ../sass/screen.scss */
 .icon li .images {
   float: left;
   width: 22%;
   margin-left: 23px;
 }
-/* line 110, ../sass/screen.scss */
+/* line 113, ../sass/screen.scss */
 .icon li .text {
   float: right;
   width: 70%;
   margin-left: 5px;
   color: #1f3f66;
 }
-/* line 117, ../sass/screen.scss */
+/* line 120, ../sass/screen.scss */
 .icon li img {
   width: 76px;
   height: 76px;

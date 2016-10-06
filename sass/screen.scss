@@ -7,6 +7,7 @@
 
 $themeColor : #1f3f66;
 $font-family : "calibri";
+$main-font:Calibri Light;
 
 buttonHover {
   cursor: pointer;
@@ -18,13 +19,92 @@ body{
   font-family: Calibri  ;
 }
 
+
+/*Start of navigation bar*/
+#nav{
+  $defaultWindowSize:100%;
+  width:$defaultWindowSize;
+  ul {
+
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: $themeColor;
+  }
+  li {
+    list-style-type: none;
+    float: left;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 42px 30px 42px 30px;
+    text-decoration: none;
+    font-size: 200%;
+    font-family: $main-font;
+    letter-spacing: 1px;
+  }
+
+  li a:hover {
+    background-color: #1c3054;
+  }
+  /*logo design*/
+
+  .logo {
+    padding: 30px 70px 18px 110px ;
+    width:180px;
+    height: 60px;
+  }
+  .search-icon{
+    // margin-left: 100px;
+    width:25px;
+    height: 25px;
+    float:left;
+    margin-top: 8px;
+    padding-left:10px;
+    padding-right:5px;
+  }
+  .search-input{
+    border:solid 3px white!important;
+    width: 300px;
+    float:left;
+    margin: 35px 30px 0px 120px;
+    height: 42px;
+  }
+
+
+  /*input search*/
+  input[type=search] {
+    color: #ffffff;
+    text-align: left;
+    cursor: pointer;
+    display: block;
+    width: 86.1%;
+    height: 42.5px;
+    letter-spacing: 1px;
+    // text-shadow: 0 0 2px #ffffff;
+    word-spacing: 4px;
+    //background-image: url(assets/images/search-icon.png);
+    background-color:  rgba(31,63,102,.20);
+    padding:9px;
+    font-size: 20px;
+    border:none;
+    outline: none;
+
+  }
+  .section{
+    position: relative;
+  }
+}
+/*end of navigation bar*/
+
 // SITE BANNER
 #site-banner{
   background: url("../images/skyline-buildings-new-york-skyscrapers.jpg");
   position: relative;
   background-repeat: no-repeat;
   color: $themeColor;
-  width: 100vw;
   background-size: cover;
   overflow: hidden;
 
@@ -43,7 +123,7 @@ body{
       background-size: 39%;
       background-position: 499px 30px;
       background-repeat: no-repeat;
-      margin-bottom: 102px;
+      margin-bottom: 88px;
 
       // banner text
       #banner-text{
@@ -56,6 +136,7 @@ body{
         font-size:40px;
         line-height: 40px ;
         font-family: "Calibri Light";
+        letter-spacing: .5px;
       }
 
       // banner  button
@@ -94,8 +175,6 @@ body{
       background: rgba(1, 1, 1, 0.12);
       list-style: none;
       padding:30px 0px 30px 58px;
-      font-family: $font-family;
-      font-size: 26px;
       padding-left: 75px;
  //
   li
@@ -115,11 +194,73 @@ body{
       float: right;
       width: 70%;
       margin-left: 5px;
-      color: $themeColor;
+      color: #1f3f66;
+      font-size: 22px;
+      line-height: 24px;
+      letter-spacing: 1px;
+      font-family: Arial;
+
     }
     img
     {
       @include icon;
+      opacity: .70;
+    }
+    img:hover
+    {
+      opacity: 1.0;
     }
   }
 }
+
+// FEATURE PHONE
+
+#feature-phone{
+  padding-left: 133px;
+  padding-right: 207px;
+  margin-top: 27px;
+
+  #feature-phone-image{
+    padding-left: 64px;
+    float: left;
+  }
+
+  #feature-text{
+    float: right;
+
+    #feature-phone-text{
+      font-size: 42px;
+      color: $themeColor;
+      letter-spacing: -1px;
+      margin-top: 9px;
+
+    }
+
+    #feature-phone-subtext{
+      margin-top: 10px;
+      font-size: 28.5px;
+      color: $themeColor;
+      font-family: "Calibri Light";
+    }
+
+    #feature-button {
+      margin-top: 28px;
+
+      button {
+        background-color: #57bc42;
+        border-radius: 8px;
+        height: 53px;
+        width: 235px;
+        border: 0px;
+        color: #fff;
+        font-size: 29px;
+        font-weight: bold;
+      }
+
+      button:hover{
+        @extend buttonHover;
+      }
+    }
+  }
+}
+

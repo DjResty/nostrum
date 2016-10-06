@@ -67,55 +67,134 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 11, ../../sass/screen.scss */
-buttonHover, #site-banner #banner-overlay #banner-content #content-button:hover {
+/* line 12, ../../sass/screen.scss */
+buttonHover, #site-banner #banner-overlay #banner-content #content-button:hover, #feature-phone #feature-text #feature-button button:hover {
   cursor: pointer;
   background-color: #22a00b;
 }
 
-/* line 17, ../../sass/screen.scss */
+/* line 18, ../../sass/screen.scss */
 body {
   font-family: Calibri;
 }
 
-/* line 22, ../../sass/screen.scss */
+/*Start of navigation bar*/
+/* line 24, ../../sass/screen.scss */
+#nav {
+  width: 100%;
+  /*logo design*/
+  /*input search*/
+}
+/* line 27, ../../sass/screen.scss */
+#nav ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1f3f66;
+}
+/* line 34, ../../sass/screen.scss */
+#nav li {
+  list-style-type: none;
+  float: left;
+}
+/* line 38, ../../sass/screen.scss */
+#nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 42px 30px 42px 30px;
+  text-decoration: none;
+  font-size: 200%;
+  font-family: Calibri Light;
+  letter-spacing: 1px;
+}
+/* line 49, ../../sass/screen.scss */
+#nav li a:hover {
+  background-color: #1c3054;
+}
+/* line 54, ../../sass/screen.scss */
+#nav .logo {
+  padding: 30px 70px 18px 110px;
+  width: 180px;
+  height: 60px;
+}
+/* line 59, ../../sass/screen.scss */
+#nav .search-icon {
+  width: 25px;
+  height: 25px;
+  float: left;
+  margin-top: 8px;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+/* line 68, ../../sass/screen.scss */
+#nav .search-input {
+  border: solid 3px white !important;
+  width: 300px;
+  float: left;
+  margin: 35px 30px 0px 120px;
+  height: 42px;
+}
+/* line 78, ../../sass/screen.scss */
+#nav input[type=search] {
+  color: #ffffff;
+  text-align: left;
+  cursor: pointer;
+  display: block;
+  width: 86.1%;
+  height: 42.5px;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+  background-color: rgba(31, 63, 102, 0.2);
+  padding: 9px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+}
+/* line 96, ../../sass/screen.scss */
+#nav .section {
+  position: relative;
+}
+
+/*end of navigation bar*/
+/* line 103, ../../sass/screen.scss */
 #site-banner {
   background: url("../images/skyline-buildings-new-york-skyscrapers.jpg");
   position: relative;
   background-repeat: no-repeat;
   color: #1f3f66;
-  width: 100vw;
   background-size: cover;
   overflow: hidden;
 }
-/* line 33, ../../sass/screen.scss */
+/* line 113, ../../sass/screen.scss */
 #site-banner #banner-overlay {
   padding-left: 16.9%;
   padding-top: 3.6%;
   height: 100%;
   background-color: rgba(213, 232, 255, 0.15);
 }
-/* line 41, ../../sass/screen.scss */
+/* line 121, ../../sass/screen.scss */
 #site-banner #banner-overlay #banner-content {
   background: url("../images/device_black.png");
   background-size: 39%;
   background-position: 499px 30px;
   background-repeat: no-repeat;
-  margin-bottom: 102px;
+  margin-bottom: 88px;
 }
-/* line 49, ../../sass/screen.scss */
+/* line 129, ../../sass/screen.scss */
 #site-banner #banner-overlay #banner-content #banner-text {
   font-size: 47px;
   line-height: 64px;
   margin-bottom: 2px;
 }
-/* line 55, ../../sass/screen.scss */
+/* line 135, ../../sass/screen.scss */
 #site-banner #banner-overlay #banner-content #banner-subtext {
   font-size: 40px;
   line-height: 40px;
   font-family: "Calibri Light";
+  letter-spacing: .5px;
 }
-/* line 62, ../../sass/screen.scss */
+/* line 143, ../../sass/screen.scss */
 #site-banner #banner-overlay #banner-content #content-button {
   margin-top: 30px;
   background-color: #57bc42;
@@ -128,37 +207,89 @@ body {
   font-weight: bold;
 }
 
-/* line 92, ../../sass/screen.scss */
+/* line 173, ../../sass/screen.scss */
 .icon {
   background: rgba(1, 1, 1, 0.12);
   list-style: none;
   padding: 30px 0px 30px 58px;
-  font-family: "calibri";
-  font-size: 26px;
   padding-left: 75px;
 }
-/* line 101, ../../sass/screen.scss */
+/* line 180, ../../sass/screen.scss */
 .icon li {
   display: inline-block;
   width: 32%;
   margin-right: -26px;
 }
-/* line 107, ../../sass/screen.scss */
+/* line 186, ../../sass/screen.scss */
 .icon li .images {
   float: left;
   width: 22%;
   margin-left: 23px;
 }
-/* line 113, ../../sass/screen.scss */
+/* line 192, ../../sass/screen.scss */
 .icon li .text {
   float: right;
   width: 70%;
   margin-left: 5px;
   color: #1f3f66;
+  font-size: 22px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  font-family: Arial;
 }
-/* line 120, ../../sass/screen.scss */
+/* line 204, ../../sass/screen.scss */
 .icon li img {
   width: 76px;
   height: 76px;
   float: right;
+  opacity: .70;
+}
+/* line 209, ../../sass/screen.scss */
+.icon li img:hover {
+  opacity: 1.0;
+}
+
+/* line 218, ../../sass/screen.scss */
+#feature-phone {
+  padding-left: 133px;
+  padding-right: 207px;
+  margin-top: 27px;
+}
+/* line 223, ../../sass/screen.scss */
+#feature-phone #feature-phone-image {
+  padding-left: 64px;
+  float: left;
+}
+/* line 228, ../../sass/screen.scss */
+#feature-phone #feature-text {
+  float: right;
+}
+/* line 231, ../../sass/screen.scss */
+#feature-phone #feature-text #feature-phone-text {
+  font-size: 42px;
+  color: #1f3f66;
+  letter-spacing: -1px;
+  margin-top: 9px;
+}
+/* line 239, ../../sass/screen.scss */
+#feature-phone #feature-text #feature-phone-subtext {
+  margin-top: 10px;
+  font-size: 28.5px;
+  color: #1f3f66;
+  font-family: "Calibri Light";
+}
+/* line 246, ../../sass/screen.scss */
+#feature-phone #feature-text #feature-button {
+  margin-top: 28px;
+}
+/* line 249, ../../sass/screen.scss */
+#feature-phone #feature-text #feature-button button {
+  background-color: #57bc42;
+  border-radius: 8px;
+  height: 53px;
+  width: 235px;
+  border: 0px;
+  color: #fff;
+  font-size: 29px;
+  font-weight: bold;
 }

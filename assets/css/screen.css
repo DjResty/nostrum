@@ -192,8 +192,9 @@ body {
   font-size: 40px;
   line-height: 40px;
   font-family: "Calibri Light";
+  letter-spacing: .5px;
 }
-/* line 142, ../../sass/screen.scss */
+/* line 143, ../../sass/screen.scss */
 #site-banner #banner-overlay #banner-content #content-button {
   margin-top: 30px;
   background-color: #57bc42;
@@ -206,65 +207,91 @@ body {
   font-weight: bold;
 }
 
-/* line 172, ../../sass/screen.scss */
+/* line 173, ../../sass/screen.scss */
 .icon {
   background: rgba(1, 1, 1, 0.12);
   list-style: none;
   padding: 30px 0px 30px 58px;
   padding-left: 75px;
 }
-/* line 179, ../../sass/screen.scss */
+/* line 180, ../../sass/screen.scss */
 .icon li {
   display: inline-block;
   width: 32%;
   margin-right: -26px;
 }
-/* line 185, ../../sass/screen.scss */
+/* line 186, ../../sass/screen.scss */
 .icon li .images {
   float: left;
   width: 22%;
   margin-left: 23px;
 }
-/* line 191, ../../sass/screen.scss */
+/* line 192, ../../sass/screen.scss */
 .icon li .text {
   float: right;
   width: 70%;
   margin-left: 5px;
   color: #1f3f66;
+<<<<<<< HEAD
   font-family: Arial;
   letter-spacing: 1px;
+=======
+>>>>>>> 073b319f3afa43a843d4ca2d4731b3bbc86a9091
   font-size: 22px;
   line-height: 24px;
+  letter-spacing: 1px;
+  font-family: Arial;
 }
+<<<<<<< HEAD
 /* line 202, ../../sass/screen.scss */
+=======
+/* line 204, ../../sass/screen.scss */
+>>>>>>> 073b319f3afa43a843d4ca2d4731b3bbc86a9091
 .icon li img {
   width: 76px;
   height: 76px;
   float: right;
 }
 
+<<<<<<< HEAD
 /* line 211, ../../sass/screen.scss */
+=======
+/* line 213, ../../sass/screen.scss */
+>>>>>>> 073b319f3afa43a843d4ca2d4731b3bbc86a9091
 #feature-phone {
   padding-left: 133px;
   padding-right: 207px;
   margin-top: 27px;
 }
+<<<<<<< HEAD
 /* line 216, ../../sass/screen.scss */
+=======
+/* line 218, ../../sass/screen.scss */
+>>>>>>> 073b319f3afa43a843d4ca2d4731b3bbc86a9091
 #feature-phone #feature-phone-image {
   padding-left: 64px;
   float: left;
 }
+<<<<<<< HEAD
 /* line 221, ../../sass/screen.scss */
 #feature-phone #feature-text {
   float: right;
 }
 /* line 224, ../../sass/screen.scss */
+=======
+/* line 223, ../../sass/screen.scss */
+#feature-phone #feature-text {
+  float: right;
+}
+/* line 226, ../../sass/screen.scss */
+>>>>>>> 073b319f3afa43a843d4ca2d4731b3bbc86a9091
 #feature-phone #feature-text #feature-phone-text {
   font-size: 42px;
   color: #1f3f66;
   letter-spacing: -1px;
   margin-top: 9px;
 }
+<<<<<<< HEAD
 /* line 232, ../../sass/screen.scss */
 #feature-phone #feature-text #feature-phone-subtext {
   margin-top: 10px;
@@ -273,6 +300,14 @@ body {
   font-family: Arial;
   letter-spacing: .8px;
   line-height: 29px;
+=======
+/* line 234, ../../sass/screen.scss */
+#feature-phone #feature-text #feature-phone-subtext {
+  margin-top: 10px;
+  font-size: 28.5px;
+  color: #1f3f66;
+  font-family: "Calibri Light";
+>>>>>>> 073b319f3afa43a843d4ca2d4731b3bbc86a9091
 }
 /* line 241, ../../sass/screen.scss */
 #feature-phone #feature-text #feature-button {

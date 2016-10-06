@@ -136,7 +136,6 @@ body{
         font-size:40px;
         line-height: 40px ;
         font-family: "Calibri Light";
-        letter-spacing: .5px;
       }
 
       // banner  button
@@ -195,11 +194,10 @@ body{
       width: 70%;
       margin-left: 5px;
       color: #1f3f66;
+      font-family: Arial;
+      letter-spacing: 1px;
       font-size: 22px;
       line-height: 24px;
-      letter-spacing: 1px;
-      font-family: Arial;
-
     }
     img
     {
@@ -238,13 +236,15 @@ body{
 
     #feature-phone-subtext{
       margin-top: 10px;
-      font-size: 28.5px;
-      color: $themeColor;
-      font-family: "Calibri Light";
+      font-size: 24.5px;
+      color: #1f4e75;
+      font-family: Arial;
+      letter-spacing: .8px;
+      line-height: 29px;
     }
 
     #feature-button {
-      margin-top: 28px;
+      margin-top: 25px;
 
       button {
         background-color: #57bc42;

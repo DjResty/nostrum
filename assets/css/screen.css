@@ -1,0 +1,463 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 12, ../../sass/screen.scss */
+buttonHover, #site-banner #banner-overlay #banner-content #content-button:hover, #feature-phone #feature-text #feature-button button:hover {
+  cursor: pointer;
+  background-color: #22a00b;
+}
+
+/* line 17, ../../sass/screen.scss */
+.clear-both {
+  clear: both;
+}
+
+/* line 22, ../../sass/screen.scss */
+body {
+  font-family: Calibri;
+}
+
+/*Start of navigation bar*/
+/* line 28, ../../sass/screen.scss */
+#nav {
+  width: 100%;
+  /*logo design*/
+  /*input search*/
+}
+/* line 31, ../../sass/screen.scss */
+#nav ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1f3f66;
+}
+/* line 38, ../../sass/screen.scss */
+#nav li {
+  list-style-type: none;
+  float: left;
+}
+/* line 42, ../../sass/screen.scss */
+#nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 42px 30px 42px 30px;
+  text-decoration: none;
+  font-size: 200%;
+  font-family: Calibri Light;
+  letter-spacing: 1px;
+}
+/* line 53, ../../sass/screen.scss */
+#nav li a:hover {
+  background-color: #1c3054;
+}
+/* line 58, ../../sass/screen.scss */
+#nav .logo {
+  padding: 30px 70px 18px 110px;
+  width: 180px;
+  height: 60px;
+}
+/* line 63, ../../sass/screen.scss */
+#nav .search-icon {
+  width: 25px;
+  height: 25px;
+  float: left;
+  margin-top: 8px;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+/* line 72, ../../sass/screen.scss */
+#nav .search-input {
+  border: solid 3px white !important;
+  width: 300px;
+  float: left;
+  margin: 35px 30px 0px 120px;
+  height: 42px;
+}
+/* line 82, ../../sass/screen.scss */
+#nav input[type=search] {
+  color: #ffffff;
+  text-align: left;
+  cursor: pointer;
+  display: block;
+  width: 86.1%;
+  height: 42.5px;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+  background-color: rgba(31, 63, 102, 0.2);
+  padding: 9px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+}
+/* line 100, ../../sass/screen.scss */
+#nav .section {
+  position: relative;
+}
+
+/*end of navigation bar*/
+/* line 107, ../../sass/screen.scss */
+#site-banner {
+  background: url("../images/skyline-buildings-new-york-skyscrapers.jpg");
+  position: relative;
+  background-repeat: no-repeat;
+  color: #1f3f66;
+  background-size: cover;
+  overflow: hidden;
+}
+/* line 117, ../../sass/screen.scss */
+#site-banner #banner-overlay {
+  padding-left: 16.9%;
+  padding-top: 3.6%;
+  height: 100%;
+  background-color: rgba(213, 232, 255, 0.15);
+}
+/* line 125, ../../sass/screen.scss */
+#site-banner #banner-overlay #banner-content {
+  background: url("../images/device_black.png");
+  background-size: 39%;
+  background-position: 499px 30px;
+  background-repeat: no-repeat;
+  margin-bottom: 88px;
+}
+/* line 133, ../../sass/screen.scss */
+#site-banner #banner-overlay #banner-content #banner-text {
+  font-size: 47px;
+  line-height: 64px;
+  margin-bottom: 2px;
+}
+/* line 139, ../../sass/screen.scss */
+#site-banner #banner-overlay #banner-content #banner-subtext {
+  font-size: 40px;
+  line-height: 40px;
+  font-family: "Calibri Light";
+  letter-spacing: .5px;
+}
+/* line 147, ../../sass/screen.scss */
+#site-banner #banner-overlay #banner-content #content-button {
+  margin-top: 30px;
+  background-color: #57bc42;
+  border-radius: 8px;
+  height: 52px;
+  width: 232px;
+  border: 0px;
+  color: #fff;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+/* line 177, ../../sass/screen.scss */
+.icon {
+  background: rgba(1, 1, 1, 0.12);
+  list-style: none;
+  padding: 30px 0px 30px 58px;
+  padding-left: 75px;
+}
+/* line 184, ../../sass/screen.scss */
+.icon li {
+  display: inline-block;
+  width: 32%;
+  margin-right: -26px;
+}
+/* line 190, ../../sass/screen.scss */
+.icon li .images {
+  float: left;
+  width: 22%;
+  margin-left: 23px;
+}
+/* line 196, ../../sass/screen.scss */
+.icon li .text {
+  float: right;
+  width: 70%;
+  margin-left: 5px;
+  color: #1f3f66;
+  font-size: 22px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  font-family: Arial;
+}
+/* line 208, ../../sass/screen.scss */
+.icon li img {
+  width: 76px;
+  height: 76px;
+  float: right;
+}
+
+/* line 217, ../../sass/screen.scss */
+#feature-phone {
+  padding-left: 133px;
+  padding-right: 207px;
+  margin-top: 27px;
+}
+/* line 222, ../../sass/screen.scss */
+#feature-phone #feature-phone-image {
+  padding-left: 64px;
+  float: left;
+}
+/* line 227, ../../sass/screen.scss */
+#feature-phone #feature-text {
+  float: right;
+}
+/* line 230, ../../sass/screen.scss */
+#feature-phone #feature-text #feature-phone-text {
+  font-size: 42px;
+  color: #1f3f66;
+  letter-spacing: -1px;
+  margin-top: 9px;
+}
+/* line 238, ../../sass/screen.scss */
+#feature-phone #feature-text #feature-phone-subtext {
+  margin-top: 10px;
+  font-size: 28.5px;
+  color: #1f3f66;
+  font-family: "Calibri Light";
+}
+/* line 245, ../../sass/screen.scss */
+#feature-phone #feature-text #feature-button {
+  margin-top: 28px;
+}
+/* line 248, ../../sass/screen.scss */
+#feature-phone #feature-text #feature-button button {
+  background-color: #57bc42;
+  border-radius: 8px;
+  height: 53px;
+  width: 235px;
+  border: 0px;
+  color: #fff;
+  font-size: 29px;
+  font-weight: bold;
+}
+
+/* line 271, ../../sass/screen.scss */
+div#formFeatures {
+  margin-bottom: 50%;
+  text-align: center;
+  padding: 39px 47px 0px 133px;
+}
+/* line 275, ../../sass/screen.scss */
+div#formFeatures section#left-side {
+  float: left;
+  padding-left: 64px;
+}
+/* line 278, ../../sass/screen.scss */
+div#formFeatures section#left-side h3 {
+  color: #1f3f66;
+  font-size: 36.5px;
+  font-family: Arial;
+  text-align: left;
+}
+/* line 284, ../../sass/screen.scss */
+div#formFeatures section#left-side article#phone-image {
+  margin-top: 23px;
+  height: 320px;
+  float: left;
+  cursor: pointer;
+}
+/* line 290, ../../sass/screen.scss */
+div#formFeatures section#left-side article#phone-image img {
+  height: 100%;
+}
+/* line 294, ../../sass/screen.scss */
+div#formFeatures section#left-side article#phone-func {
+  margin-top: 23px;
+  margin-left: 180px;
+  height: 320px;
+}
+/* line 299, ../../sass/screen.scss */
+div#formFeatures section#left-side article#phone-func div.image-text {
+  height: 33.33%;
+}
+/* line 302, ../../sass/screen.scss */
+div#formFeatures section#left-side article#phone-func div.image-text div.image-wifi, div#formFeatures section#left-side article#phone-func div.image-text div.image-connect, div#formFeatures section#left-side article#phone-func div.image-text div.image-message {
+  float: left;
+  height: 100px;
+  margin-left: 25px;
+  z-index: 1;
+  position: relative;
+}
+/* line 309, ../../sass/screen.scss */
+div#formFeatures section#left-side article#phone-func div.image-text div.image-wifi img, div#formFeatures section#left-side article#phone-func div.image-text div.image-connect img, div#formFeatures section#left-side article#phone-func div.image-text div.image-message img {
+  width: 125%;
+  cursor: pointer;
+}
+/* line 314, ../../sass/screen.scss */
+div#formFeatures section#left-side article#phone-func div.image-text div.text-wifi, div#formFeatures section#left-side article#phone-func div.image-text div.text-connect, div#formFeatures section#left-side article#phone-func div.image-text div.text-message {
+  float: right;
+  padding: 10px;
+  width: 297px;
+  height: 30px;
+  color: #1f3f66;
+  font-size: 20px;
+  margin-top: 18px;
+  font-family: Arial;
+  background-color: rgba(1, 1, 1, 0.12);
+}
+/* line 326, ../../sass/screen.scss */
+div#formFeatures section#left-side article#phone-func div.image-text div.container {
+  margin-top: -7px;
+  margin-left: -15px;
+}
+/* line 331, ../../sass/screen.scss */
+div#formFeatures section#left-side article#phone-func div.image-text div.image-connect {
+  margin-top: 6px;
+}
+/* line 335, ../../sass/screen.scss */
+div#formFeatures section#left-side article#phone-func div.image-text div.text-connect {
+  margin-top: 25px;
+}
+/* line 339, ../../sass/screen.scss */
+div#formFeatures section#left-side article#phone-func div.image-text div.image-message {
+  margin-top: 13px;
+}
+/* line 343, ../../sass/screen.scss */
+div#formFeatures section#left-side article#phone-func div.image-text div.text-message {
+  margin-top: 33px;
+}
+/* line 350, ../../sass/screen.scss */
+div#formFeatures section#right-side {
+  margin-top: 20px;
+  float: right;
+}
+/* line 353, ../../sass/screen.scss */
+div#formFeatures section#right-side article {
+  border-radius: 15px 15px 15px 15px;
+  background: #f9b046;
+  height: 180px;
+}
+/* line 358, ../../sass/screen.scss */
+div#formFeatures section#right-side article div#tab-one {
+  width: 245px;
+  border-radius: 15px 15px 0px 0px;
+  float: left;
+  height: 60px;
+  color: white;
+  font-size: 28px;
+  padding-top: 20px;
+  background-color: #1f3f66;
+  cursor: pointer;
+  font-family: Arial;
+}
+/* line 370, ../../sass/screen.scss */
+div#formFeatures section#right-side article div#tab-two {
+  width: 228px;
+  border-radius: 0px 15px 0px 0px;
+  float: right;
+  height: 58px;
+  color: white;
+  font-size: 28px;
+  font-family: Arial;
+  padding-top: 20px;
+  cursor: pointer;
+}
+/* line 381, ../../sass/screen.scss */
+div#formFeatures section#right-side article div#form-input {
+  position: relative;
+  background-color: #1f3f66;
+  border-radius: 0px 0px 15px 15px;
+  top: 60px;
+  height: 305px;
+  width: 473px;
+}
+/* line 388, ../../sass/screen.scss */
+div#formFeatures section#right-side article div#form-input div#input-field-one, div#formFeatures section#right-side article div#form-input div#input-field-two {
+  position: absolute;
+  color: #1f3f66;
+  border-radius: 8px 8px 8px 8px;
+  height: 42px;
+  width: 388px;
+  background-color: beige;
+  left: 48px;
+  top: 48px;
+  font-size: 31px;
+  text-align: left;
+  padding-top: 11px;
+  font-family: Arial;
+}
+/* line 402, ../../sass/screen.scss */
+div#formFeatures section#right-side article div#form-input div#input-field-two {
+  top: 135px;
+}
+/* line 406, ../../sass/screen.scss */
+div#formFeatures section#right-side article div#form-input div#submit {
+  position: absolute;
+  width: 200px;
+  left: 215px;
+  top: 220px;
+  border-radius: 8px 8px 8px 8px;
+  background-color: #57bc42;
+  color: white;
+  padding: 10px;
+  font-family: Arial;
+  font-size: 30px;
+  cursor: pointer;
+}
+/* line 421, ../../sass/screen.scss */
+div#formFeatures section#right-side article div#form-input div#submit:hover {
+  background-color: #4f953b;
+}

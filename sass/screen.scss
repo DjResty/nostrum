@@ -8,6 +8,7 @@
 $themeColor : #1f3f66;
 $font-family : "calibri";
 $main-font:Calibri Light;
+$mainFont: Arial;
 
 buttonHover {
   cursor: pointer;
@@ -212,7 +213,6 @@ body{
 }
 
 // FEATURE PHONE
-
 #feature-phone{
   padding-left: 133px;
   padding-right: 207px;
@@ -264,14 +264,11 @@ body{
 
 
 // Form Feature
-
-//$themeColor : rgb(31, 63 , 102);
-$mainFont: Arial;
-div#formFeatures{
+#formFeatures{
   margin-bottom: 50%;
   text-align: center;
   padding: 39px 47px 0px 133px;
-  section#left-side{
+  #left-side{
     float: left;
     padding-left: 64px;
     h3 {
@@ -280,83 +277,76 @@ div#formFeatures{
       font-family: $mainFont;
       text-align: left;
     }
-    article#phone-image {
-      //border: 1px solid black;
+    #phone-image {
       margin-top: 23px;
-      height: 320px;
+      height: 270px;
       float: left;
       cursor: pointer; 
       img {
         height: 100%;
       }
     }
-    article#phone-func {
+    #phone-func {
       margin-top: 23px;
       margin-left: 180px;
       height: 320px;
-      //border: 1px solid crimson;
-      div.image-text {
-        //border: 1px solid blue;
+      .image-text {
         height: 33.33%;
-        div.image-wifi {
-          //border: 1px solid darkgreen;
+        .image-wifi {
           float: left;
           height: 100px;
-          margin-left: 25px;
           z-index: 1;
           position: relative;
           img {
-            width: 125%;
+            width: 115%;
             cursor: pointer;
           }
         }
-        div.text-wifi {
-          //border: 1px solid aqua;
+        .text-wifi {
           float: right;
           padding: 10px;
-          width: 297px;
+          width: 265px;
           height: 30px;
           color: $themeColor;
-          font-size: 20px;
+          font-size: 18px;
           margin-top: 18px;
           font-family: $mainFont;
           background-color: rgba(1, 1, 1, 0.12);
         }
-        div.container{
-          margin-top: -7px;
+        .container{
+          margin-top: -5px;
           margin-left: -15px;
+          text-align: left;
+          padding-left: 40px;
+          padding-top: 3px;
         }
-
-        div.image-connect {
+        .image-connect {
           margin-top: 6px;
-          @extend div.image-wifi;
+          @extend .image-wifi;
         }
-        div.text-connect{
+        .text-connect{
           @extend .text-wifi;
           margin-top: 25px;
         }
-        div.image-message {
+        .image-message {
           margin-top: 13px;
-          @extend div.image-wifi;
+          @extend .image-wifi;
         }
-        div.text-message{
+        .text-message{
           @extend .text-wifi;
-          margin-top: 33px;
+          margin-top: 31px;
         }
       }
     }
   }
-  section#right-side{
+  #right-side{
     margin-top: 20px;
     float: right;
     article{
       border-radius: 15px 15px 15px 15px;
       background: #f9b046;
       height: 360px;
-
-
-      //position:relative;
-      div#tab-one{
+      #tab-one{
         width: 245px;
         border-radius: 15px 15px 0px 0px;
         float: left;
@@ -368,8 +358,8 @@ div#formFeatures{
         cursor: pointer;
         font-family: $mainFont;
       }
-      div#tab-two{
-        width: 228px;
+      #tab-two{
+        width: 240px;
         border-radius: 0px 15px 0px 0px;
         float: right;
         height: 58px;
@@ -378,12 +368,16 @@ div#formFeatures{
         font-family: $mainFont;
         padding-top: 20px;
         cursor: pointer;
+        position: absolute;
+        right: 47px;
+
 
         &:hover{
           background-color: $themeColor;
         }
+
       }
-      div#form-input{
+      #form-input-one{
         position: relative;
         background-color: $themeColor;
         border-radius: 0px 0px 15px 15px;
@@ -393,33 +387,44 @@ div#formFeatures{
         #input-field-one{
           position: absolute;
           color: $themeColor;
-          border-radius: 8px 8px 8px 8px;
-          height: 50px;
+          border-radius: 8px;
+          height: 40px;
           width: 374px;
           background-color: beige;
           left: 48px;
-          top: 48px;
-          font-size: 31px;
+          top: 35px;
+          font-size: 20px;
           text-align: left;
-          padding-left: 17px;
+          padding-left: 22px;
+          //padding-left: 17px;
           font-family: $mainFont;
           border: 0px;
 
           &::-webkit-input-placeholder{
-            color: #27  5383;
+            color: #275383;
+            font-size: 20px;
+          }
+          &:focus{
+            outline-style: none;
           }
 
         }
         #input-field-two{
           @extend #input-field-one;
-          top: 135px;
+          top: 99px;
         }
+
+        #input-field-three{
+          @extend #input-field-one;
+          top: 158px;
+        }
+
         #submit{
           position: absolute;
           //height: 50px;
           width:200px;
-          left: 237px;
-          top: 220px;
+          left: 240px;
+          top: 221px;
           border-radius: 8px;
           background-color: #57bc42;
           color: white;
@@ -429,9 +434,60 @@ div#formFeatures{
           cursor: pointer;
           border: 0px;
         }
+
+
+
+        #ageConfirm{
+          position: absolute;
+          left: 47px;
+          bottom: 51px;
+          color: white;
+          font-size: 21px;
+
+          #checkBox{
+            position: absolute;
+            background-color: #fff;
+            width: 16px;
+            top: 2px;
+            left: 3px;
+            border-radius: 5px;
+            height: 15px;
+            z-index: 1;
+
+            &:hover{
+              background-color: #cdcdcd;
+              cursor: pointer ;
+            }
+
+          }
+
+          input{
+            visibility: hidden;
+
+            &:checked{
+              &+ img{
+                visibility: visible;
+              }
+            }
+          }
+          img{
+            width: 22px;
+            position: absolute;
+            left: 3px;
+            top: -5px;
+            z-index: 2;
+            visibility: hidden;
+          }
+
+        }
+
         #submit:hover{
           background-color: #4f953b;
         }
+      }
+
+      #form-input-two{
+        display: none;
       }
     }
   }

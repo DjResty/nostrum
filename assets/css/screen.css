@@ -67,42 +67,42 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 12, ../../sass/screen.scss */
+/* line 13, ../../sass/screen.scss */
 buttonHover, #site-banner #banner-overlay #banner-content #content-button:hover, #feature-phone #feature-text #feature-button button:hover {
   cursor: pointer;
   background-color: #22a00b;
 }
 
-/* line 17, ../../sass/screen.scss */
+/* line 18, ../../sass/screen.scss */
 .clear-both {
   clear: both;
 }
 
-/* line 22, ../../sass/screen.scss */
+/* line 23, ../../sass/screen.scss */
 body {
   font-family: Calibri;
 }
 
 /*Start of navigation bar*/
-/* line 28, ../../sass/screen.scss */
+/* line 29, ../../sass/screen.scss */
 #nav {
   width: 100%;
   /*logo design*/
   /*input search*/
 }
-/* line 31, ../../sass/screen.scss */
+/* line 32, ../../sass/screen.scss */
 #nav ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #1f3f66;
 }
-/* line 38, ../../sass/screen.scss */
+/* line 39, ../../sass/screen.scss */
 #nav li {
   list-style-type: none;
   float: left;
 }
-/* line 42, ../../sass/screen.scss */
+/* line 43, ../../sass/screen.scss */
 #nav li a {
   display: block;
   color: white;
@@ -113,17 +113,17 @@ body {
   font-family: Calibri Light;
   letter-spacing: 1px;
 }
-/* line 53, ../../sass/screen.scss */
+/* line 54, ../../sass/screen.scss */
 #nav li a:hover {
   background-color: #1c3054;
 }
-/* line 58, ../../sass/screen.scss */
+/* line 59, ../../sass/screen.scss */
 #nav .logo {
   padding: 30px 70px 18px 110px;
   width: 180px;
   height: 60px;
 }
-/* line 63, ../../sass/screen.scss */
+/* line 64, ../../sass/screen.scss */
 #nav .search-icon {
   width: 25px;
   height: 25px;
@@ -132,7 +132,7 @@ body {
   padding-left: 10px;
   padding-right: 5px;
 }
-/* line 72, ../../sass/screen.scss */
+/* line 73, ../../sass/screen.scss */
 #nav .search-input {
   border: solid 3px white !important;
   width: 300px;
@@ -140,7 +140,7 @@ body {
   margin: 35px 30px 0px 120px;
   height: 42px;
 }
-/* line 82, ../../sass/screen.scss */
+/* line 83, ../../sass/screen.scss */
 #nav input[type=search] {
   color: #ffffff;
   text-align: left;
@@ -156,13 +156,13 @@ body {
   border: none;
   outline: none;
 }
-/* line 100, ../../sass/screen.scss */
+/* line 101, ../../sass/screen.scss */
 #nav .section {
   position: relative;
 }
 
 /*end of navigation bar*/
-/* line 107, ../../sass/screen.scss */
+/* line 108, ../../sass/screen.scss */
 #site-banner {
   background: url("../images/skyline-buildings-new-york-skyscrapers.jpg");
   background-repeat: no-repeat;
@@ -170,14 +170,14 @@ body {
   background-size: cover;
   overflow: hidden;
 }
-/* line 116, ../../sass/screen.scss */
+/* line 117, ../../sass/screen.scss */
 #site-banner #banner-overlay {
   padding-left: 16.9%;
   padding-top: 3.6%;
   height: 100%;
   background-color: rgba(213, 232, 255, 0.15);
 }
-/* line 124, ../../sass/screen.scss */
+/* line 125, ../../sass/screen.scss */
 #site-banner #banner-overlay #banner-content {
   background: url("../images/device_black.png");
   background-size: 39%;
@@ -185,20 +185,20 @@ body {
   background-repeat: no-repeat;
   margin-bottom: 88px;
 }
-/* line 132, ../../sass/screen.scss */
+/* line 133, ../../sass/screen.scss */
 #site-banner #banner-overlay #banner-content #banner-text {
   font-size: 47px;
   line-height: 64px;
   margin-bottom: 2px;
 }
-/* line 138, ../../sass/screen.scss */
+/* line 139, ../../sass/screen.scss */
 #site-banner #banner-overlay #banner-content #banner-subtext {
   font-size: 40px;
   line-height: 40px;
   font-family: "Calibri Light";
   letter-spacing: .5px;
 }
-/* line 146, ../../sass/screen.scss */
+/* line 147, ../../sass/screen.scss */
 #site-banner #banner-overlay #banner-content #content-button {
   margin-top: 30px;
   background-color: #57bc42;
@@ -211,26 +211,26 @@ body {
   font-weight: bold;
 }
 
-/* line 176, ../../sass/screen.scss */
+/* line 177, ../../sass/screen.scss */
 .icon {
   background: rgba(1, 1, 1, 0.12);
   list-style: none;
   padding: 30px 0px 30px 58px;
   padding-left: 75px;
 }
-/* line 183, ../../sass/screen.scss */
+/* line 184, ../../sass/screen.scss */
 .icon li {
   display: inline-block;
   width: 32%;
   margin-right: -26px;
 }
-/* line 189, ../../sass/screen.scss */
+/* line 190, ../../sass/screen.scss */
 .icon li .images {
   float: left;
   width: 22%;
   margin-left: 23px;
 }
-/* line 195, ../../sass/screen.scss */
+/* line 196, ../../sass/screen.scss */
 .icon li .text {
   float: right;
   width: 70%;
@@ -241,7 +241,7 @@ body {
   letter-spacing: 1px;
   font-family: Arial;
 }
-/* line 207, ../../sass/screen.scss */
+/* line 208, ../../sass/screen.scss */
 .icon li img {
   width: 76px;
   height: 76px;
@@ -293,104 +293,106 @@ body {
   font-weight: bold;
 }
 
-/* line 270, ../../sass/screen.scss */
-div#formFeatures {
+/* line 267, ../../sass/screen.scss */
+#formFeatures {
   margin-bottom: 50%;
   text-align: center;
   padding: 39px 47px 0px 133px;
 }
-/* line 274, ../../sass/screen.scss */
-div#formFeatures section#left-side {
+/* line 271, ../../sass/screen.scss */
+#formFeatures #left-side {
   float: left;
   padding-left: 64px;
 }
-/* line 277, ../../sass/screen.scss */
-div#formFeatures section#left-side h3 {
+/* line 274, ../../sass/screen.scss */
+#formFeatures #left-side h3 {
   color: #1f3f66;
   font-size: 36.5px;
   font-family: Arial;
   text-align: left;
 }
-/* line 283, ../../sass/screen.scss */
-div#formFeatures section#left-side article#phone-image {
+/* line 280, ../../sass/screen.scss */
+#formFeatures #left-side #phone-image {
   margin-top: 23px;
-  height: 320px;
+  height: 270px;
   float: left;
   cursor: pointer;
 }
-/* line 289, ../../sass/screen.scss */
-div#formFeatures section#left-side article#phone-image img {
+/* line 285, ../../sass/screen.scss */
+#formFeatures #left-side #phone-image img {
   height: 100%;
 }
-/* line 293, ../../sass/screen.scss */
-div#formFeatures section#left-side article#phone-func {
+/* line 289, ../../sass/screen.scss */
+#formFeatures #left-side #phone-func {
   margin-top: 23px;
   margin-left: 180px;
   height: 320px;
 }
-/* line 298, ../../sass/screen.scss */
-div#formFeatures section#left-side article#phone-func div.image-text {
+/* line 293, ../../sass/screen.scss */
+#formFeatures #left-side #phone-func .image-text {
   height: 33.33%;
 }
-/* line 301, ../../sass/screen.scss */
-div#formFeatures section#left-side article#phone-func div.image-text div.image-wifi, div#formFeatures section#left-side article#phone-func div.image-text div.image-connect, div#formFeatures section#left-side article#phone-func div.image-text div.image-message {
+/* line 295, ../../sass/screen.scss */
+#formFeatures #left-side #phone-func .image-text .image-wifi, #formFeatures #left-side #phone-func .image-text .image-connect, #formFeatures #left-side #phone-func .image-text .image-message {
   float: left;
   height: 100px;
-  margin-left: 25px;
   z-index: 1;
   position: relative;
 }
-/* line 308, ../../sass/screen.scss */
-div#formFeatures section#left-side article#phone-func div.image-text div.image-wifi img, div#formFeatures section#left-side article#phone-func div.image-text div.image-connect img, div#formFeatures section#left-side article#phone-func div.image-text div.image-message img {
-  width: 125%;
+/* line 300, ../../sass/screen.scss */
+#formFeatures #left-side #phone-func .image-text .image-wifi img, #formFeatures #left-side #phone-func .image-text .image-connect img, #formFeatures #left-side #phone-func .image-text .image-message img {
+  width: 115%;
   cursor: pointer;
 }
-/* line 313, ../../sass/screen.scss */
-div#formFeatures section#left-side article#phone-func div.image-text div.text-wifi, div#formFeatures section#left-side article#phone-func div.image-text div.text-connect, div#formFeatures section#left-side article#phone-func div.image-text div.text-message {
+/* line 305, ../../sass/screen.scss */
+#formFeatures #left-side #phone-func .image-text .text-wifi, #formFeatures #left-side #phone-func .image-text .text-connect, #formFeatures #left-side #phone-func .image-text .text-message {
   float: right;
   padding: 10px;
-  width: 297px;
+  width: 265px;
   height: 30px;
   color: #1f3f66;
-  font-size: 20px;
+  font-size: 18px;
   margin-top: 18px;
   font-family: Arial;
   background-color: rgba(1, 1, 1, 0.12);
 }
-/* line 325, ../../sass/screen.scss */
-div#formFeatures section#left-side article#phone-func div.image-text div.container {
-  margin-top: -7px;
+/* line 316, ../../sass/screen.scss */
+#formFeatures #left-side #phone-func .image-text .container {
+  margin-top: -5px;
   margin-left: -15px;
+  text-align: left;
+  padding-left: 40px;
+  padding-top: 3px;
 }
-/* line 330, ../../sass/screen.scss */
-div#formFeatures section#left-side article#phone-func div.image-text div.image-connect {
+/* line 323, ../../sass/screen.scss */
+#formFeatures #left-side #phone-func .image-text .image-connect {
   margin-top: 6px;
 }
-/* line 334, ../../sass/screen.scss */
-div#formFeatures section#left-side article#phone-func div.image-text div.text-connect {
+/* line 327, ../../sass/screen.scss */
+#formFeatures #left-side #phone-func .image-text .text-connect {
   margin-top: 25px;
 }
-/* line 338, ../../sass/screen.scss */
-div#formFeatures section#left-side article#phone-func div.image-text div.image-message {
+/* line 331, ../../sass/screen.scss */
+#formFeatures #left-side #phone-func .image-text .image-message {
   margin-top: 13px;
 }
-/* line 342, ../../sass/screen.scss */
-div#formFeatures section#left-side article#phone-func div.image-text div.text-message {
-  margin-top: 33px;
+/* line 335, ../../sass/screen.scss */
+#formFeatures #left-side #phone-func .image-text .text-message {
+  margin-top: 31px;
 }
-/* line 349, ../../sass/screen.scss */
-div#formFeatures section#right-side {
+/* line 342, ../../sass/screen.scss */
+#formFeatures #right-side {
   margin-top: 20px;
   float: right;
 }
-/* line 352, ../../sass/screen.scss */
-div#formFeatures section#right-side article {
+/* line 345, ../../sass/screen.scss */
+#formFeatures #right-side article {
   border-radius: 15px 15px 15px 15px;
   background: #f9b046;
   height: 360px;
 }
-/* line 359, ../../sass/screen.scss */
-div#formFeatures section#right-side article div#tab-one {
+/* line 349, ../../sass/screen.scss */
+#formFeatures #right-side article #tab-one {
   width: 245px;
   border-radius: 15px 15px 0px 0px;
   float: left;
@@ -402,9 +404,9 @@ div#formFeatures section#right-side article div#tab-one {
   cursor: pointer;
   font-family: Arial;
 }
-/* line 371, ../../sass/screen.scss */
-div#formFeatures section#right-side article div#tab-two {
-  width: 228px;
+/* line 361, ../../sass/screen.scss */
+#formFeatures #right-side article #tab-two {
+  width: 240px;
   border-radius: 0px 15px 0px 0px;
   float: right;
   height: 58px;
@@ -413,13 +415,15 @@ div#formFeatures section#right-side article div#tab-two {
   font-family: Arial;
   padding-top: 20px;
   cursor: pointer;
+  position: absolute;
+  right: 47px;
 }
-/* line 382, ../../sass/screen.scss */
-div#formFeatures section#right-side article div#tab-two:hover {
+/* line 375, ../../sass/screen.scss */
+#formFeatures #right-side article #tab-two:hover {
   background-color: #1f3f66;
 }
-/* line 386, ../../sass/screen.scss */
-div#formFeatures section#right-side article div#form-input {
+/* line 380, ../../sass/screen.scss */
+#formFeatures #right-side article #form-input-one {
   position: relative;
   background-color: #1f3f66;
   border-radius: 0px 0px 15px 15px;
@@ -427,36 +431,45 @@ div#formFeatures section#right-side article div#form-input {
   height: 300px;
   width: 473px;
 }
-/* line 393, ../../sass/screen.scss */
-div#formFeatures section#right-side article div#form-input #input-field-one, div#formFeatures section#right-side article div#form-input #input-field-two {
+/* line 387, ../../sass/screen.scss */
+#formFeatures #right-side article #form-input-one #input-field-one, #formFeatures #right-side article #form-input-one #input-field-two, #formFeatures #right-side article #form-input-one #input-field-three {
   position: absolute;
   color: #1f3f66;
-  border-radius: 8px 8px 8px 8px;
-  height: 50px;
+  border-radius: 8px;
+  height: 40px;
   width: 374px;
   background-color: beige;
   left: 48px;
-  top: 48px;
-  font-size: 31px;
+  top: 35px;
+  font-size: 20px;
   text-align: left;
-  padding-left: 17px;
+  padding-left: 22px;
   font-family: Arial;
   border: 0px;
 }
-/* line 408, ../../sass/screen.scss */
-div#formFeatures section#right-side article div#form-input #input-field-one::-webkit-input-placeholder, div#formFeatures section#right-side article div#form-input #input-field-two::-webkit-input-placeholder {
-  color: #27  5383;
+/* line 403, ../../sass/screen.scss */
+#formFeatures #right-side article #form-input-one #input-field-one::-webkit-input-placeholder, #formFeatures #right-side article #form-input-one #input-field-two::-webkit-input-placeholder, #formFeatures #right-side article #form-input-one #input-field-three::-webkit-input-placeholder {
+  color: #275383;
+  font-size: 20px;
 }
-/* line 413, ../../sass/screen.scss */
-div#formFeatures section#right-side article div#form-input #input-field-two {
-  top: 135px;
+/* line 407, ../../sass/screen.scss */
+#formFeatures #right-side article #form-input-one #input-field-one:focus, #formFeatures #right-side article #form-input-one #input-field-two:focus, #formFeatures #right-side article #form-input-one #input-field-three:focus {
+  outline-style: none;
+}
+/* line 412, ../../sass/screen.scss */
+#formFeatures #right-side article #form-input-one #input-field-two {
+  top: 99px;
 }
 /* line 417, ../../sass/screen.scss */
-div#formFeatures section#right-side article div#form-input #submit {
+#formFeatures #right-side article #form-input-one #input-field-three {
+  top: 158px;
+}
+/* line 422, ../../sass/screen.scss */
+#formFeatures #right-side article #form-input-one #submit {
   position: absolute;
   width: 200px;
-  left: 237px;
-  top: 220px;
+  left: 240px;
+  top: 221px;
   border-radius: 8px;
   background-color: #57bc42;
   color: white;
@@ -466,7 +479,52 @@ div#formFeatures section#right-side article div#form-input #submit {
   cursor: pointer;
   border: 0px;
 }
-/* line 432, ../../sass/screen.scss */
-div#formFeatures section#right-side article div#form-input #submit:hover {
+/* line 440, ../../sass/screen.scss */
+#formFeatures #right-side article #form-input-one #ageConfirm {
+  position: absolute;
+  left: 47px;
+  bottom: 51px;
+  color: white;
+  font-size: 21px;
+}
+/* line 447, ../../sass/screen.scss */
+#formFeatures #right-side article #form-input-one #ageConfirm #checkBox {
+  position: absolute;
+  background-color: #fff;
+  width: 16px;
+  top: 2px;
+  left: 3px;
+  border-radius: 5px;
+  height: 15px;
+  z-index: 1;
+}
+/* line 457, ../../sass/screen.scss */
+#formFeatures #right-side article #form-input-one #ageConfirm #checkBox:hover {
+  background-color: #cdcdcd;
+  cursor: pointer;
+}
+/* line 464, ../../sass/screen.scss */
+#formFeatures #right-side article #form-input-one #ageConfirm input {
+  visibility: hidden;
+}
+/* line 468, ../../sass/screen.scss */
+#formFeatures #right-side article #form-input-one #ageConfirm input:checked + img {
+  visibility: visible;
+}
+/* line 473, ../../sass/screen.scss */
+#formFeatures #right-side article #form-input-one #ageConfirm img {
+  width: 22px;
+  position: absolute;
+  left: 3px;
+  top: -5px;
+  z-index: 2;
+  visibility: hidden;
+}
+/* line 484, ../../sass/screen.scss */
+#formFeatures #right-side article #form-input-one #submit:hover {
   background-color: #4f953b;
+}
+/* line 489, ../../sass/screen.scss */
+#formFeatures #right-side article #form-input-two {
+  display: none;
 }

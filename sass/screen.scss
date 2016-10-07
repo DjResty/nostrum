@@ -106,7 +106,6 @@ body{
 // SITE BANNER
 #site-banner{
   background: url("../images/skyline-buildings-new-york-skyscrapers.jpg");
-  position: relative;
   background-repeat: no-repeat;
   color: $themeColor;
   background-size: cover;
@@ -353,7 +352,9 @@ div#formFeatures{
     article{
       border-radius: 15px 15px 15px 15px;
       background: #f9b046;
-      height: 180px;
+      height: 360px;
+
+
       //position:relative;
       div#tab-one{
         width: 245px;
@@ -377,48 +378,58 @@ div#formFeatures{
         font-family: $mainFont;
         padding-top: 20px;
         cursor: pointer;
+
+        &:hover{
+          background-color: $themeColor;
+        }
       }
       div#form-input{
         position: relative;
         background-color: $themeColor;
         border-radius: 0px 0px 15px 15px;
         top: 60px;
-        height: 305px;
+        height: 300px;
         width: 473px;
-        div#input-field-one{
+        #input-field-one{
           position: absolute;
           color: $themeColor;
           border-radius: 8px 8px 8px 8px;
-          height: 42px;
-          width: 388px;
+          height: 50px;
+          width: 374px;
           background-color: beige;
           left: 48px;
           top: 48px;
           font-size: 31px;
           text-align: left;
-          padding-top: 11px;
+          padding-left: 17px;
           font-family: $mainFont;
+          border: 0px;
+
+          &::-webkit-input-placeholder{
+            color: #27  5383;
+          }
+
         }
-        div#input-field-two{
-          @extend div#input-field-one;
+        #input-field-two{
+          @extend #input-field-one;
           top: 135px;
         }
-        div#submit{
+        #submit{
           position: absolute;
           //height: 50px;
           width:200px;
-          left: 215px;
+          left: 237px;
           top: 220px;
-          border-radius: 8px 8px 8px 8px;
+          border-radius: 8px;
           background-color: #57bc42;
           color: white;
           padding: 10px;
           font-family: $mainFont;
           font-size: 30px;
           cursor: pointer;
-
+          border: 0px;
         }
-        div#submit:hover{
+        #submit:hover{
           background-color: #4f953b;
         }
       }

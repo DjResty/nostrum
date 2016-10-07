@@ -165,20 +165,19 @@ body {
 /* line 107, ../../sass/screen.scss */
 #site-banner {
   background: url("../images/skyline-buildings-new-york-skyscrapers.jpg");
-  position: relative;
   background-repeat: no-repeat;
   color: #1f3f66;
   background-size: cover;
   overflow: hidden;
 }
-/* line 117, ../../sass/screen.scss */
+/* line 116, ../../sass/screen.scss */
 #site-banner #banner-overlay {
   padding-left: 16.9%;
   padding-top: 3.6%;
   height: 100%;
   background-color: rgba(213, 232, 255, 0.15);
 }
-/* line 125, ../../sass/screen.scss */
+/* line 124, ../../sass/screen.scss */
 #site-banner #banner-overlay #banner-content {
   background: url("../images/device_black.png");
   background-size: 39%;
@@ -186,20 +185,20 @@ body {
   background-repeat: no-repeat;
   margin-bottom: 88px;
 }
-/* line 133, ../../sass/screen.scss */
+/* line 132, ../../sass/screen.scss */
 #site-banner #banner-overlay #banner-content #banner-text {
   font-size: 47px;
   line-height: 64px;
   margin-bottom: 2px;
 }
-/* line 139, ../../sass/screen.scss */
+/* line 138, ../../sass/screen.scss */
 #site-banner #banner-overlay #banner-content #banner-subtext {
   font-size: 40px;
   line-height: 40px;
   font-family: "Calibri Light";
   letter-spacing: .5px;
 }
-/* line 147, ../../sass/screen.scss */
+/* line 146, ../../sass/screen.scss */
 #site-banner #banner-overlay #banner-content #content-button {
   margin-top: 30px;
   background-color: #57bc42;
@@ -212,26 +211,26 @@ body {
   font-weight: bold;
 }
 
-/* line 177, ../../sass/screen.scss */
+/* line 176, ../../sass/screen.scss */
 .icon {
   background: rgba(1, 1, 1, 0.12);
   list-style: none;
   padding: 30px 0px 30px 58px;
   padding-left: 75px;
 }
-/* line 184, ../../sass/screen.scss */
+/* line 183, ../../sass/screen.scss */
 .icon li {
   display: inline-block;
   width: 32%;
   margin-right: -26px;
 }
-/* line 190, ../../sass/screen.scss */
+/* line 189, ../../sass/screen.scss */
 .icon li .images {
   float: left;
   width: 22%;
   margin-left: 23px;
 }
-/* line 196, ../../sass/screen.scss */
+/* line 195, ../../sass/screen.scss */
 .icon li .text {
   float: right;
   width: 70%;
@@ -242,47 +241,47 @@ body {
   letter-spacing: 1px;
   font-family: Arial;
 }
-/* line 208, ../../sass/screen.scss */
+/* line 207, ../../sass/screen.scss */
 .icon li img {
   width: 76px;
   height: 76px;
   float: right;
 }
 
-/* line 217, ../../sass/screen.scss */
+/* line 216, ../../sass/screen.scss */
 #feature-phone {
   padding-left: 133px;
   padding-right: 207px;
   margin-top: 27px;
 }
-/* line 222, ../../sass/screen.scss */
+/* line 221, ../../sass/screen.scss */
 #feature-phone #feature-phone-image {
   padding-left: 64px;
   float: left;
 }
-/* line 227, ../../sass/screen.scss */
+/* line 226, ../../sass/screen.scss */
 #feature-phone #feature-text {
   float: right;
 }
-/* line 230, ../../sass/screen.scss */
+/* line 229, ../../sass/screen.scss */
 #feature-phone #feature-text #feature-phone-text {
   font-size: 42px;
   color: #1f3f66;
   letter-spacing: -1px;
   margin-top: 9px;
 }
-/* line 238, ../../sass/screen.scss */
+/* line 237, ../../sass/screen.scss */
 #feature-phone #feature-text #feature-phone-subtext {
   margin-top: 10px;
   font-size: 28.5px;
   color: #1f3f66;
   font-family: "Calibri Light";
 }
-/* line 245, ../../sass/screen.scss */
+/* line 244, ../../sass/screen.scss */
 #feature-phone #feature-text #feature-button {
   margin-top: 28px;
 }
-/* line 248, ../../sass/screen.scss */
+/* line 247, ../../sass/screen.scss */
 #feature-phone #feature-text #feature-button button {
   background-color: #57bc42;
   border-radius: 8px;
@@ -294,46 +293,46 @@ body {
   font-weight: bold;
 }
 
-/* line 271, ../../sass/screen.scss */
+/* line 270, ../../sass/screen.scss */
 div#formFeatures {
   margin-bottom: 50%;
   text-align: center;
   padding: 39px 47px 0px 133px;
 }
-/* line 275, ../../sass/screen.scss */
+/* line 274, ../../sass/screen.scss */
 div#formFeatures section#left-side {
   float: left;
   padding-left: 64px;
 }
-/* line 278, ../../sass/screen.scss */
+/* line 277, ../../sass/screen.scss */
 div#formFeatures section#left-side h3 {
   color: #1f3f66;
   font-size: 36.5px;
   font-family: Arial;
   text-align: left;
 }
-/* line 284, ../../sass/screen.scss */
+/* line 283, ../../sass/screen.scss */
 div#formFeatures section#left-side article#phone-image {
   margin-top: 23px;
   height: 320px;
   float: left;
   cursor: pointer;
 }
-/* line 290, ../../sass/screen.scss */
+/* line 289, ../../sass/screen.scss */
 div#formFeatures section#left-side article#phone-image img {
   height: 100%;
 }
-/* line 294, ../../sass/screen.scss */
+/* line 293, ../../sass/screen.scss */
 div#formFeatures section#left-side article#phone-func {
   margin-top: 23px;
   margin-left: 180px;
   height: 320px;
 }
-/* line 299, ../../sass/screen.scss */
+/* line 298, ../../sass/screen.scss */
 div#formFeatures section#left-side article#phone-func div.image-text {
   height: 33.33%;
 }
-/* line 302, ../../sass/screen.scss */
+/* line 301, ../../sass/screen.scss */
 div#formFeatures section#left-side article#phone-func div.image-text div.image-wifi, div#formFeatures section#left-side article#phone-func div.image-text div.image-connect, div#formFeatures section#left-side article#phone-func div.image-text div.image-message {
   float: left;
   height: 100px;
@@ -341,12 +340,12 @@ div#formFeatures section#left-side article#phone-func div.image-text div.image-w
   z-index: 1;
   position: relative;
 }
-/* line 309, ../../sass/screen.scss */
+/* line 308, ../../sass/screen.scss */
 div#formFeatures section#left-side article#phone-func div.image-text div.image-wifi img, div#formFeatures section#left-side article#phone-func div.image-text div.image-connect img, div#formFeatures section#left-side article#phone-func div.image-text div.image-message img {
   width: 125%;
   cursor: pointer;
 }
-/* line 314, ../../sass/screen.scss */
+/* line 313, ../../sass/screen.scss */
 div#formFeatures section#left-side article#phone-func div.image-text div.text-wifi, div#formFeatures section#left-side article#phone-func div.image-text div.text-connect, div#formFeatures section#left-side article#phone-func div.image-text div.text-message {
   float: right;
   padding: 10px;
@@ -358,39 +357,39 @@ div#formFeatures section#left-side article#phone-func div.image-text div.text-wi
   font-family: Arial;
   background-color: rgba(1, 1, 1, 0.12);
 }
-/* line 326, ../../sass/screen.scss */
+/* line 325, ../../sass/screen.scss */
 div#formFeatures section#left-side article#phone-func div.image-text div.container {
   margin-top: -7px;
   margin-left: -15px;
 }
-/* line 331, ../../sass/screen.scss */
+/* line 330, ../../sass/screen.scss */
 div#formFeatures section#left-side article#phone-func div.image-text div.image-connect {
   margin-top: 6px;
 }
-/* line 335, ../../sass/screen.scss */
+/* line 334, ../../sass/screen.scss */
 div#formFeatures section#left-side article#phone-func div.image-text div.text-connect {
   margin-top: 25px;
 }
-/* line 339, ../../sass/screen.scss */
+/* line 338, ../../sass/screen.scss */
 div#formFeatures section#left-side article#phone-func div.image-text div.image-message {
   margin-top: 13px;
 }
-/* line 343, ../../sass/screen.scss */
+/* line 342, ../../sass/screen.scss */
 div#formFeatures section#left-side article#phone-func div.image-text div.text-message {
   margin-top: 33px;
 }
-/* line 350, ../../sass/screen.scss */
+/* line 349, ../../sass/screen.scss */
 div#formFeatures section#right-side {
   margin-top: 20px;
   float: right;
 }
-/* line 353, ../../sass/screen.scss */
+/* line 352, ../../sass/screen.scss */
 div#formFeatures section#right-side article {
   border-radius: 15px 15px 15px 15px;
   background: #f9b046;
-  height: 180px;
+  height: 360px;
 }
-/* line 358, ../../sass/screen.scss */
+/* line 359, ../../sass/screen.scss */
 div#formFeatures section#right-side article div#tab-one {
   width: 245px;
   border-radius: 15px 15px 0px 0px;
@@ -403,7 +402,7 @@ div#formFeatures section#right-side article div#tab-one {
   cursor: pointer;
   font-family: Arial;
 }
-/* line 370, ../../sass/screen.scss */
+/* line 371, ../../sass/screen.scss */
 div#formFeatures section#right-side article div#tab-two {
   width: 228px;
   border-radius: 0px 15px 0px 0px;
@@ -415,49 +414,59 @@ div#formFeatures section#right-side article div#tab-two {
   padding-top: 20px;
   cursor: pointer;
 }
-/* line 381, ../../sass/screen.scss */
+/* line 382, ../../sass/screen.scss */
+div#formFeatures section#right-side article div#tab-two:hover {
+  background-color: #1f3f66;
+}
+/* line 386, ../../sass/screen.scss */
 div#formFeatures section#right-side article div#form-input {
   position: relative;
   background-color: #1f3f66;
   border-radius: 0px 0px 15px 15px;
   top: 60px;
-  height: 305px;
+  height: 300px;
   width: 473px;
 }
-/* line 388, ../../sass/screen.scss */
-div#formFeatures section#right-side article div#form-input div#input-field-one, div#formFeatures section#right-side article div#form-input div#input-field-two {
+/* line 393, ../../sass/screen.scss */
+div#formFeatures section#right-side article div#form-input #input-field-one, div#formFeatures section#right-side article div#form-input #input-field-two {
   position: absolute;
   color: #1f3f66;
   border-radius: 8px 8px 8px 8px;
-  height: 42px;
-  width: 388px;
+  height: 50px;
+  width: 374px;
   background-color: beige;
   left: 48px;
   top: 48px;
   font-size: 31px;
   text-align: left;
-  padding-top: 11px;
+  padding-left: 17px;
   font-family: Arial;
+  border: 0px;
 }
-/* line 402, ../../sass/screen.scss */
-div#formFeatures section#right-side article div#form-input div#input-field-two {
+/* line 408, ../../sass/screen.scss */
+div#formFeatures section#right-side article div#form-input #input-field-one::-webkit-input-placeholder, div#formFeatures section#right-side article div#form-input #input-field-two::-webkit-input-placeholder {
+  color: #27  5383;
+}
+/* line 413, ../../sass/screen.scss */
+div#formFeatures section#right-side article div#form-input #input-field-two {
   top: 135px;
 }
-/* line 406, ../../sass/screen.scss */
-div#formFeatures section#right-side article div#form-input div#submit {
+/* line 417, ../../sass/screen.scss */
+div#formFeatures section#right-side article div#form-input #submit {
   position: absolute;
   width: 200px;
-  left: 215px;
+  left: 237px;
   top: 220px;
-  border-radius: 8px 8px 8px 8px;
+  border-radius: 8px;
   background-color: #57bc42;
   color: white;
   padding: 10px;
   font-family: Arial;
   font-size: 30px;
   cursor: pointer;
+  border: 0px;
 }
-/* line 421, ../../sass/screen.scss */
-div#formFeatures section#right-side article div#form-input div#submit:hover {
+/* line 432, ../../sass/screen.scss */
+div#formFeatures section#right-side article div#form-input #submit:hover {
   background-color: #4f953b;
 }

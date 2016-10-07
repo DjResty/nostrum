@@ -3,8 +3,426 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
-//@import "compass/reset";
+@import "compass/reset";
 
-header{
-  background: rgb(31, 63, 102);
+$themeColor : #1f3f66;
+$font-family : "calibri";
+$main-font:Calibri Light;
+
+buttonHover {
+  cursor: pointer;
+  background-color: #22a00b;
 }
+
+.clear-both{
+  clear: both;
+}
+
+
+body{
+  font-family: Calibri;
+}
+
+
+/*Start of navigation bar*/
+#nav{
+  $defaultWindowSize:100%;
+  width:$defaultWindowSize;
+  ul {
+
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: $themeColor;
+  }
+  li {
+    list-style-type: none;
+    float: left;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 42px 30px 42px 30px;
+    text-decoration: none;
+    font-size: 200%;
+    font-family: $main-font;
+    letter-spacing: 1px;
+  }
+
+  li a:hover {
+    background-color: #1c3054;
+  }
+  /*logo design*/
+
+  .logo {
+    padding: 30px 70px 18px 110px ;
+    width:180px;
+    height: 60px;
+  }
+  .search-icon{
+    // margin-left: 100px;
+    width:25px;
+    height: 25px;
+    float:left;
+    margin-top: 8px;
+    padding-left:10px;
+    padding-right:5px;
+  }
+  .search-input{
+    border:solid 3px white!important;
+    width: 300px;
+    float:left;
+    margin: 35px 30px 0px 120px;
+    height: 42px;
+  }
+
+
+  /*input search*/
+  input[type=search] {
+    color: #ffffff;
+    text-align: left;
+    cursor: pointer;
+    display: block;
+    width: 86.1%;
+    height: 42.5px;
+    letter-spacing: 1px;
+    // text-shadow: 0 0 2px #ffffff;
+    word-spacing: 4px;
+    //background-image: url(assets/images/search-icon.png);
+    background-color:  rgba(31,63,102,.20);
+    padding:9px;
+    font-size: 20px;
+    border:none;
+    outline: none;
+
+  }
+  .section{
+    position: relative;
+  }
+}
+/*end of navigation bar*/
+
+// SITE BANNER
+#site-banner{
+  background: url("../images/skyline-buildings-new-york-skyscrapers.jpg");
+  position: relative;
+  background-repeat: no-repeat;
+  color: $themeColor;
+  background-size: cover;
+  overflow: hidden;
+
+
+  // color-overlay
+  #banner-overlay{
+    padding-left: 16.9%;
+    padding-top: 3.6%;
+    height: 100%;
+    background-color: rgba(213 , 232, 255 , .15);
+
+
+    // banner contents
+    #banner-content{
+      background: url("../images/device_black.png");
+      background-size: 39%;
+      background-position: 499px 30px;
+      background-repeat: no-repeat;
+      margin-bottom: 88px;
+
+      // banner text
+      #banner-text{
+        font-size: 47px;
+        line-height: 64px;
+        margin-bottom: 2px;
+      }
+
+      #banner-subtext{
+        font-size:40px;
+        line-height: 40px ;
+        font-family: "Calibri Light";
+        letter-spacing: .5px;
+      }
+
+      // banner  button
+      #content-button{
+        margin-top: 30px;
+        background-color: #57bc42;
+        border-radius: 8px;
+        height: 52px;
+        width: 232px;
+        border: 0px;
+        color: #fff;
+        font-size: 26px;
+        font-weight: bold;
+      }
+
+      #content-button:hover{
+        @extend buttonHover;
+      }
+    }
+  }
+}
+
+
+// ICON BAR
+
+@mixin icon
+{
+  width:76px;
+  height:76px;
+  float: right;
+}
+
+//mainbanner
+.icon
+{
+      background: rgba(1, 1, 1, 0.12);
+      list-style: none;
+      padding:30px 0px 30px 58px;
+      padding-left: 75px;
+ //
+  li
+  {
+    display: inline-block;
+    width: 32%;
+    margin-right: -26px;
+
+    .images
+    {
+      float: left;
+      width: 22%;
+      margin-left: 23px;
+    }
+    .text
+    {
+      float: right;
+      width: 70%;
+      margin-left: 5px;
+      color: #1f3f66;
+      font-size: 22px;
+      line-height: 24px;
+      letter-spacing: 1px;
+      font-family: Arial;
+
+    }
+    img
+    {
+      @include icon;
+    }
+  }
+}
+
+// FEATURE PHONE
+
+#feature-phone{
+  padding-left: 133px;
+  padding-right: 207px;
+  margin-top: 27px;
+
+  #feature-phone-image{
+    padding-left: 64px;
+    float: left;
+  }
+
+  #feature-text{
+    float: right;
+
+    #feature-phone-text{
+      font-size: 42px;
+      color: $themeColor;
+      letter-spacing: -1px;
+      margin-top: 9px;
+
+    }
+
+    #feature-phone-subtext{
+      margin-top: 10px;
+      font-size: 28.5px;
+      color: $themeColor;
+      font-family: "Calibri Light";
+    }
+
+    #feature-button {
+      margin-top: 28px;
+
+      button {
+        background-color: #57bc42;
+        border-radius: 8px;
+        height: 53px;
+        width: 235px;
+        border: 0px;
+        color: #fff;
+        font-size: 29px;
+        font-weight: bold;
+      }
+
+      button:hover{
+        @extend buttonHover;
+      }
+    }
+  }
+}
+
+
+// Form Feature
+
+//$themeColor : rgb(31, 63 , 102);
+$mainFont: Arial;
+div#formFeatures{
+  margin-bottom: 50%;
+  text-align: center;
+  padding: 39px 47px 0px 133px;
+  section#left-side{
+    float: left;
+    padding-left: 64px;
+    h3 {
+      color: $themeColor;
+      font-size: 36.5px;
+      font-family: $mainFont;
+      text-align: left;
+    }
+    article#phone-image {
+      //border: 1px solid black;
+      margin-top: 23px;
+      height: 320px;
+      float: left;
+      cursor: pointer; 
+      img {
+        height: 100%;
+      }
+    }
+    article#phone-func {
+      margin-top: 23px;
+      margin-left: 180px;
+      height: 320px;
+      //border: 1px solid crimson;
+      div.image-text {
+        //border: 1px solid blue;
+        height: 33.33%;
+        div.image-wifi {
+          //border: 1px solid darkgreen;
+          float: left;
+          height: 100px;
+          margin-left: 25px;
+          z-index: 1;
+          position: relative;
+          img {
+            width: 125%;
+            cursor: pointer;
+          }
+        }
+        div.text-wifi {
+          //border: 1px solid aqua;
+          float: right;
+          padding: 10px;
+          width: 297px;
+          height: 30px;
+          color: $themeColor;
+          font-size: 20px;
+          margin-top: 18px;
+          font-family: $mainFont;
+          background-color: rgba(1, 1, 1, 0.12);
+        }
+        div.container{
+          margin-top: -7px;
+          margin-left: -15px;
+        }
+
+        div.image-connect {
+          margin-top: 6px;
+          @extend div.image-wifi;
+        }
+        div.text-connect{
+          @extend .text-wifi;
+          margin-top: 25px;
+        }
+        div.image-message {
+          margin-top: 13px;
+          @extend div.image-wifi;
+        }
+        div.text-message{
+          @extend .text-wifi;
+          margin-top: 33px;
+        }
+      }
+    }
+  }
+  section#right-side{
+    margin-top: 20px;
+    float: right;
+    article{
+      border-radius: 15px 15px 15px 15px;
+      background: #f9b046;
+      height: 180px;
+      //position:relative;
+      div#tab-one{
+        width: 245px;
+        border-radius: 15px 15px 0px 0px;
+        float: left;
+        height: 60px;
+        color: white;
+        font-size: 28px;
+        padding-top: 20px;
+        background-color: $themeColor;
+        cursor: pointer;
+        font-family: $mainFont;
+      }
+      div#tab-two{
+        width: 228px;
+        border-radius: 0px 15px 0px 0px;
+        float: right;
+        height: 58px;
+        color: white;
+        font-size: 28px;
+        font-family: $mainFont;
+        padding-top: 20px;
+        cursor: pointer;
+      }
+      div#form-input{
+        position: relative;
+        background-color: $themeColor;
+        border-radius: 0px 0px 15px 15px;
+        top: 60px;
+        height: 305px;
+        width: 473px;
+        div#input-field-one{
+          position: absolute;
+          color: $themeColor;
+          border-radius: 8px 8px 8px 8px;
+          height: 42px;
+          width: 388px;
+          background-color: beige;
+          left: 48px;
+          top: 48px;
+          font-size: 31px;
+          text-align: left;
+          padding-top: 11px;
+          font-family: $mainFont;
+        }
+        div#input-field-two{
+          @extend div#input-field-one;
+          top: 135px;
+        }
+        div#submit{
+          position: absolute;
+          //height: 50px;
+          width:200px;
+          left: 215px;
+          top: 220px;
+          border-radius: 8px 8px 8px 8px;
+          background-color: #57bc42;
+          color: white;
+          padding: 10px;
+          font-family: $mainFont;
+          font-size: 30px;
+          cursor: pointer;
+
+        }
+        div#submit:hover{
+          background-color: #4f953b;
+        }
+      }
+    }
+  }
+}
+

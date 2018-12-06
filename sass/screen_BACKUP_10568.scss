@@ -12,7 +12,6 @@ $main-font:Calibri Light;
 buttonHover {
   cursor: pointer;
   background-color: #22a00b;
-  what: what;
 }
 
 
@@ -107,14 +106,60 @@ body{
   background-repeat: no-repeat;
   color: $themeColor;
 <<<<<<< HEAD
-=======
   width: 100vw;
->>>>>>> developing
+=======
+>>>>>>> CJ
   background-size: cover;
   overflow: hidden;
 
 
 <<<<<<< HEAD
+    // color-overlay
+    #banner-overlay{
+      padding-left: 16.9%;
+      padding-top: 4%;
+      height: 100%;
+      background-color: rgba(213 , 232, 255 , .15);
+
+
+    // banner contents
+      #banner-content{
+        background: url("../images/device_black.png");
+        background-size: contain;
+        background-position: 558px 5px;
+        background-repeat: no-repeat;
+        margin-bottom: 102px;
+
+        // banner text
+          #banner-text{
+            font-size:51px;
+            line-height: 64px;
+            margin-bottom: 2px;
+          }
+
+          #banner-subtext{
+            font-size:46px;
+            line-height: 48px;
+            font-family: "Calibri Light";
+          }
+
+        // banner  button
+          #content-button{
+            margin-top: 35px;
+            background-color: #57bc42;
+            border-radius: 6px;
+            height: 60px;
+            width: 260px;
+            border: 0px;
+            color: #fff;
+            font-size: 30px;
+            font-weight: bold;
+          }
+
+           #content-button:hover{
+             @extend buttonHover;
+           }
+=======
   // color-overlay
   #banner-overlay{
     padding-left: 16.9%;
@@ -266,53 +311,7 @@ body{
 
       button:hover{
         @extend buttonHover;
-=======
-    // color-overlay
-    #banner-overlay{
-      padding-left: 16.9%;
-      padding-top: 4%;
-      height: 100%;
-      background-color: rgba(213 , 232, 255 , .15);
-
-
-    // banner contents
-      #banner-content{
-        background: url("../images/device_black.png");
-        background-size: contain;
-        background-position: 558px 5px;
-        background-repeat: no-repeat;
-        margin-bottom: 102px;
-
-        // banner text
-          #banner-text{
-            font-size:51px;
-            line-height: 64px;
-            margin-bottom: 2px;
-          }
-
-          #banner-subtext{
-            font-size:46px;
-            line-height: 48px;
-            font-family: "Calibri Light";
-          }
-
-        // banner  button
-          #content-button{
-            margin-top: 35px;
-            background-color: #57bc42;
-            border-radius: 6px;
-            height: 60px;
-            width: 260px;
-            border: 0px;
-            color: #fff;
-            font-size: 30px;
-            font-weight: bold;
-          }
-
-           #content-button:hover{
-             @extend buttonHover;
-           }
->>>>>>> developing
+>>>>>>> CJ
       }
     }
   }
